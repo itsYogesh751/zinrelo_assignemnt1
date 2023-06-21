@@ -135,7 +135,7 @@ class AcmeWine:
             and order.user.is_valid_email()
             and order.user.zipcode_not_have_consecutive_digits()
         )
-
+"""main function to be invoked when file is executed"""
 def main():
     if len(sys.argv) < 2:
         print("Please provide the order file path as a command-line argument.")
