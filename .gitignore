@@ -1,0 +1,10 @@
+bin
+env
+env2
+lib
+man
+test
+.~lock.orders.csv#
+.~lock.valid.csv#
+__pycache__/
+pyvenv.cfg
